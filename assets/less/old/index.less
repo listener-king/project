@@ -1,0 +1,109 @@
+
+/*初始化*/
+@import "./base.less";
+/*左侧*/
+.aside{
+    position: fixed;
+    top:0px;
+    left:0px;
+    width: 180px;
+    height: 100%;
+    background-color: #2f4050;
+    .user{
+        padding:30px 0;
+        text-align: center;
+        background-color:#243443;
+        /* 头像部分*/
+        .avatar{
+            padding: 0 0 10px;
+        }
+        
+        .avatar  img{
+            width: 75px;
+            height: 75px;
+            border: 2px solid  rgba( 255,255,255,0.3 );
+       
+    }
+    h4{
+        color:#a9b0c2;
+    }
+    }
+    /*列表部分*/
+        .menu {
+        margin-top: 20px;
+        a{
+            display: block;
+            line-height: 2;
+            color:#a9b0c2;
+            padding-left: 20px;
+        }
+        a:hover{
+                color: #F6F6F6;
+                background-color: #243443
+        }
+        ul{
+            padding: 0;
+            margin: 0;
+            i{
+                margin-right: 10px;
+            }
+            ul a{
+                padding-left: 40px;
+            }
+            li{
+                list-style: none;
+                padding: 5px 0;
+                span{
+                  float:right;
+                  margin-right: 30px;
+                }
+            }
+            .hide{
+                display: none;
+            }
+        }
+        
+  
+    }
+
+}
+
+
+
+/*右侧*/
+.main {
+    margin-left: 180px;
+    height: 700px;
+    background-color: #F5F6F8;
+    // header
+    .header {
+        .navbar-default {
+            background-color: #fff;
+        .navbar-brand {
+            height: auto;
+            line-height: 1;
+            padding: 4px 6px;
+            margin: 12px 0 0 15px;
+            color: #FFF;
+            background-color: #5cb85c;
+            border-radius: 2px;
+        }
+        }
+       
+    }
+
+    // body
+    .body {
+        padding: 0 20px;
+        .breadcrumb {
+            background-color: #fff;
+            border: 1px solid #e7e7e7;
+        }
+        .table td,
+        .table th{
+           font-weight: normal;
+           text-align: center;
+        }
+    }
+}
+
